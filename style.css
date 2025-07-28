@@ -1,0 +1,45 @@
+/* element selectors */
+div{
+    background-color: red;
+}
+/* class selctors */
+.red{
+    background-color: aquamarine;
+}
+/* id selectors */
+#green{
+    background-color: green;
+}
+/* div ka child */
+div>p{
+    background-color: black;
+
+}
+ /* descendent selector means div ke ander p hona chaiye p ke uper kuch bhi ho this will be applied  */
+div p{
+    background-color: brown;
+}
+/* universal selectors */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* pseudo selector (:) */
+a:visited{
+    color: yellow;
+}
+a:link{
+    color: green;
+}
+/* when i bring cursor */
+a:active{
+    background-color: red;
+}
+a:hover{
+    background-color: blue;
+}
+/* in div first p */
+p:first-child{
+    background-color: blueviolet;
+}
